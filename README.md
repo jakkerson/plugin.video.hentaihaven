@@ -1,4 +1,5 @@
 # plugin.video.hentaiheaven
+## Hentai Haven Plugin for Kodi 19 Matrix
 
 [![CodeFactor](https://www.codefactor.io/repository/github/jakkerson/plugin.video.hentaihaven/badge)](https://www.codefactor.io/repository/github/jakkerson/plugin.video.hentaihaven)
 ![flake8](https://github.com/jakkerson/plugin.video.hentaihaven/workflows/flake8/badge.svg)
