@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.hentaihaven" name="Hentai Haven" version="1.00.0" provider-name="Jakkerson">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.requests" version="2.22.0+matrix.1" />
+        <import addon="script.module.beautifulsoup4" version="4.8.2+matrix.1" />
+        <import addon="script.module.simplecache" version="2.0.0" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="resources/lib/default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.python.module" library="resources/lib/"/>
+    <extension point="xbmc.addon.metadata">
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+        <summary lang="en_GB">Hentai Heaven Plugin</summary>
+        <description lang="en_GB">Hentai Haven - Everything Else is Irrelevant.</description>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+        <assets>
+            <icon>resources/artwork/icon.png</icon>
+            <fanart>resources/artwork/fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
