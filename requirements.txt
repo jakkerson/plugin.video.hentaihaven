@@ -1,0 +1,5 @@
+kodi-addon-checker
+requests
+simplecache
+beautifulsoup4
+wheel
